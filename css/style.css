@@ -1,0 +1,73 @@
+/* Diseño index */
+.jumbotron{
+    background-color: #fcc;
+}
+#news{
+    background-image: linear-gradient(black, white);
+}
+/* Diseño Formulario */
+li{
+    list-style: none;    
+}
+
+input{
+    width: 220px;
+    height: 20px;
+}
+
+form input[type="text"]:valid{
+
+    background-color: lightgreen;
+
+}
+
+form input[type="text"]:invalid{
+
+    background-color: lightsalmon;
+
+}
+
+
+span{
+    display: none;
+}
+form input[name="email"]:focus{
+    span{
+        display: block;
+    }
+}
+button{
+    color: white;
+    background-color:green;
+}
+
+/* Diseño video */
+
+.padre{
+    background-color: blue;
+}
+.menuHeader{
+    color: white; 
+}
+
+
+
+.menu,#insertarVideo{
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    background-color: #449d44;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cuadrado{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+}
+.cuadrado:hover{
+    background-image: url("rabbit2.jpg")
+}
