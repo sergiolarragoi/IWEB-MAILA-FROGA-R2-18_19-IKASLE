@@ -59,10 +59,10 @@ button{
     background-color: #449d44;
     margin: 20px;
 }
-a{
+/*a{
     text-decoration: none;
     color: white;
-}
+}*/
 .cuadrado{
     background-color: green;
     height: 80px;
