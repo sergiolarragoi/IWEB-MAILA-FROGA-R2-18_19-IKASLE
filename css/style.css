@@ -31,15 +31,15 @@ form input[type="text"]:invalid{
 span{
     display: none;
 }
-form input[name="email"]:focus{
-    span{
-        display: block;
-    }
-}
+
 button{
     color: white;
     background-color:green;
 }
+label{
+    width: 200px;
+}
+.email:focus + .format{display: inline; background-color: red}
 
 /* Diseño video */
 

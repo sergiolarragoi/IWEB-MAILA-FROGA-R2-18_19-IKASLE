@@ -38,18 +38,18 @@
        </nav>
 
         <div class="container">
-            <form   action="http://www.google.es" method="post" name="contact_form">
+            <form   action="http://www.google.es" method="post" name="contact_form" class="contact-form">
                 <ul>
                     <li> <h2>Registrate!</h2>  </li>
                     <hr>
                     <li><label for="name">Nombre:</label>
-                        <input type="text" name="name" /></li>
+                        <input type="text" name="name" required/></li>
                     <li> <label for="email">Email:</label>
-                        <input type="text" name="email" />
-                        <span>Formato "name@something.com"</span>
+                        <input type="text" name="email" class="email" required/>
+                        <span class="format">Formato "name@something.com"</span>
                     </li>
                     <li><label for="ejemplo_password_3" >Contraseña</label>
-                        <input type="password" /> 
+                        <input type="password" required/> 
                     </li>
                     <li>
                         <div class="form-check">
