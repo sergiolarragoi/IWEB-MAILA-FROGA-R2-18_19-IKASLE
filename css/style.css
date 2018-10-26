@@ -1,9 +1,31 @@
 /* Diseño index */
+#fondo{
+    background-color: #eee
+}
 .jumbotron{
     background-color: #fcc;
 }
 #news{
     background-image: linear-gradient(black, white);
+}
+h2{
+    font-size: 48px; 
+}
+.par{
+    border: 5px solid;
+    border-color: #39BC07;
+    background-color: #B5A3C8;
+}
+.impar{
+    border: 5px solid;
+    border-color: #42DBFF;
+    border-radius: 20%;
+    background-color: #7EF21C;
+}
+.italic{
+    font-family: fantasy;
+    font-style: italic;
+
 }
 /* Diseño Formulario */
 li{
@@ -13,6 +35,9 @@ li{
 input{
     width: 220px;
     height: 20px;
+}
+form input:required{
+    background-color: white;
 }
 
 form input[type="text"]:valid{
@@ -32,19 +57,34 @@ span{
     display: none;
 }
 
-button{
-    color: white;
-    background-color:green;
+.submit{
+    color: #FFFFFF;
+    background-color: #00C802;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 label{
     width: 200px;
 }
+
+
+.contact-form input{
+    transition: padding .25s;
+    padding-right: 30px;
+}
+
+
 .email:focus + .format{display: inline; background-color: red}
+.contact-form input:required:valid + .form_hint {background: #28921f;}
 
 /* Diseño video */
 
 .padre{
     background-color: blue;
+    margin: auto;
+    align-content: center;
 }
 .menuHeader{
     color: white; 
@@ -59,15 +99,24 @@ label{
     background-color: #449d44;
     margin: 20px;
 }
-/*a{
+a{
     text-decoration: none;
-    color: white;
-}*/
+
+}
 .cuadrado{
+    /*    background-color: green;
+        height: 80px;
+        width: 80px;*/
+
+    margin-left: 20%;
+    height: 100px;
+    width: 100px;
     background-color: green;
-    height: 80px;
-    width: 80px;
 }
 .cuadrado:hover{
-    background-image: url("rabbit2.jpg")
+    background-image: url("../img/rabbit2.jpg");
+    background-size: cover;
+    background-position: center;
+
+
 }
